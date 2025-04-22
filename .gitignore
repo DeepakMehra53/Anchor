@@ -60,3 +60,23 @@ test-ledger/
 
 # Ignore database files
 test-ledger/rocksdb/
+
+# Ignore ledger and test validator files
+test-ledger/
+ledger/
+*.tar.*
+*.bin
+*.json
+*.lock
+*.log
+
+# Ignore RocksDB and snapshot data
+**/rocksdb/
+**/snapshot*/
+
+# Ignore solana-keygen output (if any)
+*.keypair.json
+
+# Ignore local environment configs
+.env
+.env.*
