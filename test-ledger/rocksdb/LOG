@@ -2388,3 +2388,13 @@ Block cache entry stats(count,size,portion): DataBlock(4,0.55 KB,0.00167787%) Mi
 2025/04/22-15:52:30.539797 403659 EVENT_LOG_v1 {"time_micros": 1745337150539793, "job": 6, "event": "table_file_deletion", "file_number": 193}
 2025/04/22-15:52:30.542600 403659 [file/delete_scheduler.cc:73] Deleted file test-ledger/rocksdb/000224.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
 2025/04/22-15:52:30.542614 403659 EVENT_LOG_v1 {"time_micros": 1745337150542611, "job": 6, "event": "table_file_deletion", "file_number": 224}
+2025/04/22-15:56:26.228413 404313 [file/delete_scheduler.cc:73] Deleted file test-ledger/rocksdb/000239.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2025/04/22-15:56:26.229102 404313 EVENT_LOG_v1 {"time_micros": 1745337386228863, "job": 24, "event": "table_file_deletion", "file_number": 239}
+2025/04/22-15:56:26.231484 404313 [file/delete_scheduler.cc:73] Deleted file test-ledger/rocksdb/000238.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2025/04/22-15:56:26.231499 404313 EVENT_LOG_v1 {"time_micros": 1745337386231497, "job": 26, "event": "table_file_deletion", "file_number": 238}
+2025/04/22-15:56:26.233885 404313 [file/delete_scheduler.cc:73] Deleted file test-ledger/rocksdb/000248.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2025/04/22-15:56:26.233900 404313 EVENT_LOG_v1 {"time_micros": 1745337386233897, "job": 27, "event": "table_file_deletion", "file_number": 248}
+2025/04/22-15:56:26.235502 404313 [file/delete_scheduler.cc:73] Deleted file test-ledger/rocksdb/000242.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2025/04/22-15:56:26.235514 404313 EVENT_LOG_v1 {"time_micros": 1745337386235511, "job": 33, "event": "table_file_deletion", "file_number": 242}
+2025/04/22-15:56:26.237093 404313 [file/delete_scheduler.cc:73] Deleted file test-ledger/rocksdb/000240.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2025/04/22-15:56:26.237107 404313 EVENT_LOG_v1 {"time_micros": 1745337386237104, "job": 39, "event": "table_file_deletion", "file_number": 240}
