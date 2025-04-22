@@ -51,3 +51,12 @@ pnpm-lock.yaml
 # === Solana Cache / Misc ===
 /solana-debug/
 *.bak
+
+# Ignore generated ledger files
+test-ledger/
+
+# Ignore private keys
+*.json
+
+# Ignore database files
+test-ledger/rocksdb/
