@@ -24,6 +24,7 @@ shutdown_wait = 2000
 upgradeable = false
 
 [test.validator]
-bind_address = "0.0.0.0"
+bind_address = "127.0.0.1"
 ledger = ".anchor/test-ledger"
-rpc_port = 8898
+rpc_port = 3000
+faucet_port = 9900
